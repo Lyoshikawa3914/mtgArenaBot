@@ -895,7 +895,7 @@ class bot():
         leftClick()
         return
 
-
+# These are all the objects AKA the accounts
 bot1 = bot(email, password)
 bot2 = bot(email, password)
 bot3 = bot(email, password)
@@ -907,7 +907,7 @@ accounts = [bot1, bot2, bot3, bot4, bot4, bot5]
 
 count = 1
 
-
+# The for loop that starts the whole process
 for account in accounts:
     endtime = time.time() + 60*60
     
